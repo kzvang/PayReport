@@ -20,15 +20,15 @@ struct Employee {
 Employee* GetEmployeeInfo(int i)
 {
     Employee* pE = new Employee;
-    cout << "Enter the ID for Employee "<< i + 1 << ": ";
+    cout << "Enter the ID for Employee " << i + 1 << ": ";
     cin >> pE->ID;
-    cout << "Enter the First Name for Employee: ";
+    cout << "Enter the First Name for Employee " << i + 1 << ": ";
     cin >> pE->FirstName;
-    cout << "Enter the Last Name for Employee: ";
+    cout << "Enter the Last Name for Employee " << i + 1 << ": ";
     cin >> pE->LastName;
-    cout << "Enter the Hours Worked for Employee: ";
+    cout << "Enter the Hours Worked for Employee " << i + 1 << ": ";
     cin >> pE->HoursWorked;
-    cout << "Enter the Hourly Rate for Employee: ";
+    cout << "Enter the Hourly Rate for Employee " << i + 1 << ": ";
     cin >> pE->HourlyRate;
     return pE;
 }
